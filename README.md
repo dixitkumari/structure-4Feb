@@ -86,3 +86,65 @@ int main() {
 }
 
 <img width="478" height="400" alt="image" src="https://github.com/user-attachments/assets/7503180e-b006-45de-90a4-807ba7333c2c" />
+
+# QUESTION 3 :
+int arr[] = {10,20,30,40}
+int *p = arr ;
+
+cout<<*p<<endl;
+cout<<*(p+1)<<endl;
+cout<<*(p+3)<<endl;
+what will be the output in C++
+
+# OUTPUT
+
+<img width="365" height="175" alt="image" src="https://github.com/user-attachments/assets/2db25949-1096-41a9-bc23-9b75265d9302" />
+
+# QUESTION 4 
+int main() {
+    int arr[] = {5,10,15,20};
+    int *p = arr+2;
+
+    cout << *p << endl;
+    cout << *(p -1) << endl;
+
+# SOLUTION 
+
+<img width="506" height="131" alt="image" src="https://github.com/user-attachments/assets/7cc02e45-9a55-424b-93ac-67056c02ed44" />
+
+
+# QUESTION 5 
+#include <iostream>
+using namespace std;
+
+int main() {
+    int arr[5] = {1,2,3,4,5};
+
+    for(int i = 0; i < 5; i++) {
+        cout << *(arr + i) << " ";
+    }
+
+    return 0;
+}
+
+# output
+<img width="272" height="101" alt="image" src="https://github.com/user-attachments/assets/a856bea0-807e-4f0f-81c6-7445c44e7c97" />
+
+ # QUESTION 6
+ #include <iostream>
+using namespace std;
+
+int main() {
+    int arr[] = {2,4,6,8};
+    int *p = arr;
+    
+    p++;
+    cout << *p << endl;
+
+    return 0;
+}
+
+# output
+<img width="270" height="112" alt="image" src="https://github.com/user-attachments/assets/45e4fb75-ead9-4215-bff1-ad5d15a1a11a" />
+
+
